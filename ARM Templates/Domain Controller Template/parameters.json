@@ -1,0 +1,393 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "connections_litware_wus2_prod01_vnetg_litware_onprem_prod01_location": {
+            "value": null
+        },
+        "connections_litware_wus2_prod01_vnetg_litware_onprem_prod01_location_1": {
+            "value": null
+        },
+        "certificates_AzureClassicRunAsCertificate_base64Value": {
+            "value": null
+        },
+        "certificates_AzureRunAsCertificate_base64Value": {
+            "value": null
+        },
+        "connections_azureeventgrid_name": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2ac01_name": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2dc01_name": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2dc02_name": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2asr01_name": {
+            "value": null
+        },
+        "storageAccounts_lwpwus2asr01_name": {
+            "value": null
+        },
+        "networkInterfaces_lwpwus2asr01_name": {
+            "value": null
+        },
+        "automationAccounts_vm_backup_name": {
+            "value": null
+        },
+        "metricAlerts_Lw_wus2_osQDalert_name": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2fs01_test_name": {
+            "value": null
+        },
+        "topics_register_vms_event_grid_name": {
+            "value": null
+        },
+        "networkInterfaces_lwpwus2ac01653_name": {
+            "value": null
+        },
+        "networkInterfaces_lwpwus2dc01863_name": {
+            "value": null
+        },
+        "networkInterfaces_lwpwus2dc02666_name": {
+            "value": null
+        },
+        "publicIPAddresses_lwpwus2ac01_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_lwpwus2dc01_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_lwpwus2dc02_ip_name": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2web01_test_name": {
+            "value": null
+        },
+        "metricAlerts_lw_osQDalert_prddc2_name": {
+            "value": null
+        },
+        "workflows_registering_vms_logic_app_name": {
+            "value": null
+        },
+        "networkInterfaces_litwaretest02wus_name": {
+            "value": null
+        },
+        "publicIPAddresses_lwpwus2asr01_pip_name": {
+            "value": null
+        },
+        "workflows_registering_vms_logic_app_1_name": {
+            "value": null
+        },
+        "networkSecurityGroups_dmz_subnet_nsg_name": {
+            "value": null
+        },
+        "vaults_litware_wus2_prod_rv_name": {
+            "value": null
+        },
+        "networkSecurityGroups_adds_subnet_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_lwpwus2dc01_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_lwpwus2asr01_nsg_name": {
+            "value": null
+        },
+        "availabilitySets_litware_wus2_prod_dc_as_name": {
+            "value": null
+        },
+        "activityLogAlerts_Lw_wus2_alertPublicIP_name": {
+            "value": null
+        },
+        "networkSecurityGroups_backend_subnet_nsg_name": {
+            "value": null
+        },
+        "virtualNetworks_litware_wus2_prod01_vnet_name": {
+            "value": null
+        },
+        "localNetworkGateways_litware_onprem_prod01_name": {
+            "value": null
+        },
+        "schedules_shutdown_computevm_lwpwus2dc02_name": {
+            "value": null
+        },
+        "modules_Azure_name": {
+            "value": null
+        },
+        "publicIPAddresses_litware_wus2_prod01_vnetg_pip_name": {
+            "value": null
+        },
+        "virtualNetworkGateways_litware_wus2_prod01_vnetg_name": {
+            "value": null
+        },
+        "modules_AzureRM.Sql_name": {
+            "value": null
+        },
+        "connectionTypes_Azure_name": {
+            "value": null
+        },
+        "modules_Azure.Storage_name": {
+            "value": null
+        },
+        "modules_AuditPolicyDsc_name": {
+            "value": null
+        },
+        "modules_PSDscResources_name": {
+            "value": null
+        },
+        "modules_xDSCDomainjoin_name": {
+            "value": null
+        },
+        "extensions_IaaSAntimalware_name": {
+            "value": null
+        },
+        "extensions_IaaSAntimalware_name_1": {
+            "value": null
+        },
+        "extensions_IaaSAntimalware_name_2": {
+            "value": null
+        },
+        "modules_AzureRM.Compute_name": {
+            "value": null
+        },
+        "modules_AzureRM.Profile_name": {
+            "value": null
+        },
+        "modules_AzureRM.Storage_name": {
+            "value": null
+        },
+        "extensions_IaaSAntimalware_name_3": {
+            "value": null
+        },
+        "securityRules_RDP_name": {
+            "value": null
+        },
+        "modules_AzureRM.Resources_name": {
+            "value": null
+        },
+        "modules_SecurityPolicyDsc_name": {
+            "value": null
+        },
+        "metricAlerts_Alert%20test%20will%20go%20on%20web%20server_name": {
+            "value": null
+        },
+        "modules_AzureRM.Automation_name": {
+            "value": null
+        },
+        "connections_litware_wus2_prod01_vnetg_litware_onprem_prod01_name": {
+            "value": null
+        },
+        "modules_xRemoteDesktopAdmin_name": {
+            "value": null
+        },
+        "subnets_dmz_subnet_name": {
+            "value": null
+        },
+        "subnets_adds_subnet_name": {
+            "value": null
+        },
+        "modules_ComputerManagementDsc_name": {
+            "value": null
+        },
+        "modules_GPRegistryPolicyParser_name": {
+            "value": null
+        },
+        "subnets_GatewaySubnet_name": {
+            "value": null
+        },
+        "subnets_backend_subnet_name": {
+            "value": null
+        },
+        "subnets_jumpbox_subnet_name": {
+            "value": null
+        },
+        "connections_AzureRunAsConnection_name": {
+            "value": null
+        },
+        "runbooks_AzureAutomationTutorial_name": {
+            "value": null
+        },
+        "securityRules_Internal_RDP_name": {
+            "value": null
+        },
+        "modules_Microsoft.PowerShell.Core_name": {
+            "value": null
+        },
+        "backupPolicies_DefaultPolicy_name": {
+            "value": null
+        },
+        "certificates_AzureRunAsCertificate_name": {
+            "value": null
+        },
+        "modules_Microsoft.WSMan.Management_name": {
+            "value": null
+        },
+        "modules_xPowerShellExecutionPolicy_name": {
+            "value": null
+        },
+        "securityRules_Internal_RDP_name_1": {
+            "value": null
+        },
+        "backupPolicies_HourlyLogBackup_name": {
+            "value": null
+        },
+        "modules_Microsoft.PowerShell.Utility_name": {
+            "value": null
+        },
+        "connectionTypes_AzureServicePrincipal_name": {
+            "value": null
+        },
+        "modules_Microsoft.PowerShell.Security_name": {
+            "value": null
+        },
+        "modules_StateConfigCompositeResources_name": {
+            "value": null
+        },
+        "networkInterfaces_lwpwus2fs01_test47a74f26_d8b1_40cf_b821_b5e761e2ce97_name": {
+            "value": null
+        },
+        "runbooks_AzureAutomationTutorialScript_name": {
+            "value": null
+        },
+        "networkInterfaces_lwpwus2web01_test4874d7f6_f798_4a3a_9155_9dce13c4fcae_name": {
+            "value": null
+        },
+        "connections_AzureClassicRunAsConnection_name": {
+            "value": null
+        },
+        "connectionTypes_AzureClassicCertificate_name": {
+            "value": null
+        },
+        "modules_Microsoft.PowerShell.Management_name": {
+            "value": null
+        },
+        "runbooks_AzureAutomationTutorialPython2_name": {
+            "value": null
+        },
+        "runbooks_AzureClassicAutomationTutorial_name": {
+            "value": null
+        },
+        "backupPolicies_litware_wus2_mwf_bp_name": {
+            "value": null
+        },
+        "modules_Microsoft.PowerShell.Diagnostics_name": {
+            "value": null
+        },
+        "certificates_AzureClassicRunAsCertificate_name": {
+            "value": null
+        },
+        "modules_Orchestrator.AssetManagement.Cmdlets_name": {
+            "value": null
+        },
+        "runbooks_AzureClassicAutomationTutorialScript_name": {
+            "value": null
+        },
+        "virtualNetworkPeerings_wus2_scus_vnetp_name": {
+            "value": null
+        },
+        "replicationAlertSettings_defaultAlertSetting_name": {
+            "value": null
+        },
+        "replicationPolicies_litware_wus2_prod_rv_pol_name": {
+            "value": null
+        },
+        "replicationPolicies_litware_wus2_prod_rv_pol_failback_name": {
+            "value": null
+        },
+        "replicationFabrics_d9b4cb633c0cda0e069250cd21b4f82906e54b75db668bc1fc9e78bff58a212e_name": {
+            "value": null
+        },
+        "replicationProtectionContainers_cloud_2bb3c325_8c19_4965_a94d_bb04632ec2a5_name": {
+            "value": null
+        },
+        "replicationProtectedItems_a344ae00_c265_11e8_bcea_000d3af7e78a_name": {
+            "value": null
+        },
+        "replicationProtectedItems_de4786c3_c263_11e8_bcea_000d3af7e78a_name": {
+            "value": null
+        },
+        "replicationProtectedItems_dedc34a6_c263_11e8_bcea_000d3af7e78a_name": {
+            "value": null
+        },
+        "replicationProtectionContainerMappings_1f79f809_2cb9_4831_a70a_fe924f93e416_name": {
+            "value": null
+        },
+        "replicationProtectionContainerMappings_26c0c797_07e9_4ef9_bb07_872a5c5abaec_name": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2ac01_id": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2asr01_id": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2asr01_id_1": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2dc01_id": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2dc02_id": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2fs01_test_id": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2fs01_test_id_1": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2web01_test_id": {
+            "value": null
+        },
+        "virtualMachines_lwpwus2web01_test_id_1": {
+            "value": null
+        },
+        "activityLogAlerts_Lw_wus2_alertPublicIP_actionGroupId": {
+            "value": null
+        },
+        "metricAlerts_Lw_wus2_osQDalert_actionGroupId": {
+            "value": null
+        },
+        "metricAlerts_lw_osQDalert_prddc2_actionGroupId": {
+            "value": null
+        },
+        "metricAlerts_Alert%20test%20will%20go%20on%20web%20server_actionGroupId": {
+            "value": null
+        },
+        "virtualNetworks_litware_wus2_prod01_vnet_id": {
+            "value": null
+        },
+        "virtualNetworks_litware_wus2_prod01_vnet_id_1": {
+            "value": null
+        },
+        "subnets_jumpbox_subnet_id": {
+            "value": null
+        },
+        "virtualNetworkPeerings_wus2_scus_vnetp_id": {
+            "value": null
+        },
+        "replicationProtectedItems_a344ae00_c265_11e8_bcea_000d3af7e78a_targetVmId": {
+            "value": null
+        },
+        "replicationProtectedItems_a344ae00_c265_11e8_bcea_000d3af7e78a_recoveryAzureResourceGroupId": {
+            "value": null
+        },
+        "replicationProtectedItems_de4786c3_c263_11e8_bcea_000d3af7e78a_targetVmId": {
+            "value": null
+        },
+        "replicationProtectedItems_de4786c3_c263_11e8_bcea_000d3af7e78a_recoveryAzureResourceGroupId": {
+            "value": null
+        },
+        "replicationProtectedItems_dedc34a6_c263_11e8_bcea_000d3af7e78a_targetVmId": {
+            "value": null
+        },
+        "replicationProtectedItems_dedc34a6_c263_11e8_bcea_000d3af7e78a_recoveryAzureResourceGroupId": {
+            "value": null
+        }
+    }
+}
